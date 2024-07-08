@@ -9,9 +9,26 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: $body-bg-color;
+    background: linear-gradient(
+        277deg,
+        rgba(68, 55, 207, 1) 5%,
+        rgba(1, 250, 189, 1) 90%
+    );
 }
 
 a {
     text-decoration: none;
+}
+
+.star {
+    height: 15px;
+    vertical-align: baseline;
+}
+
+.poster {
+    border-radius: 5px 5px 0 0;
+}
+
+h1 {
+    text-shadow: 2px 2px rgba(68, 55, 207, 1);
 }
