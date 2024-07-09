@@ -43,7 +43,9 @@
                                     <span class="fw-semibold">
                                         Release date:
                                     </span>
-                                    <span>{{ $movie["date"] }}</span>
+                                    <span>
+                                        {{ \Illuminate\Support\Carbon::parse($movie["date"])->format("d/m/Y") }}
+                                    </span>
                                 </div>
                             </div>
                         </div>
